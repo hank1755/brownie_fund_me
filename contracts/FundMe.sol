@@ -42,6 +42,16 @@ contract FundMe is Ownable {
         return ethAmountinUSD;
     }
 
+    function getEntranceFee() public view returns (uint256) {
+        // minimumUSD
+        uint256 minimumUSD = 50 * 10 ** 18;
+        uint256 price = getPrice();
+        uint256 precision = 1 * 10 ** 18;
+        // return (minimumUSD * precision) / price;
+        // We fixed a rounding error found in the video by adding one!
+        return ((minimumUSD * precision) / price) + 1;
+    }
+
     function withdraw() public payable onlyOwner {
         payable(msg.sender).transfer(address(this).balance);
         // set mappings of funder amount funded to 0
