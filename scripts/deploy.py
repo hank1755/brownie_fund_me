@@ -1,10 +1,5 @@
-from brownie import FundMe, MockV3Aggregator, accounts, config, network
-from brownie.network import gas_price
-from brownie.network.gas.strategies import LinearScalingStrategy
+from brownie import FundMe, MockV3Aggregator, config, network
 from scripts.utilities import get_account, deploy_mocks, LOCAL_BLOCKCHAIN_ENVIRONMENTS
-
-gas_strategy = LinearScalingStrategy("60 gwei", "70 gwei", 1.1)
-gas_price(gas_strategy)
 
 
 def deploy_fund_me():
@@ -25,7 +20,7 @@ def deploy_fund_me():
 
     fund_me = FundMe.deploy(
         price_feed_address,
-        {"from": account, "gas_price": gas_strategy},
+        {"from": account},
         publish_source=config["networks"][network.show_active()].get(
             "verify"
         ),  # .get() is better
