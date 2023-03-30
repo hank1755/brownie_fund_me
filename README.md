@@ -1,94 +1,59 @@
-# Project Title
+# freeCodeCamp Lesson 6: Brownie Fund Me - Hank1755
 
-One Paragraph of project description goes here
+Example README.md for projects
 
-## Getting Started
+## Description
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Longer description explaining the rationale/intent behind the project, what it's good for, and how it works. If the next two subsections are short enough, they can be merged up into this block—perhaps as bulleted lists.
+
+### Features
+
+- It's TINY. A short README is a good README.
+- List other standout qualities that'll make a potential user want to try out your project.
+
+### Built with
+
+- Markdown
+- Love
+
+## Getting started
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Dependencies not explicitly covered in the installation process; e.g., OS restrictions.
 
-```
-Give examples, ex: docker, nodejs version, yarn, npm, etc
-```
+### Install
 
-### Installing
+Ideally, write a script whose usage is described here.
 
-A step by step series of examples that tell you how to get a development env running
+### Configure
 
-Say what the step will be
+Manual, context-specific tasks not covered in the installation process.
 
-```
-Give the example
-```
+### Usage
 
-And repeat
+GIFs are useful here to see the project in action.
 
-```
-until finished
-```
+### Troubleshooting
 
-End with an example of getting some data out of the system or using it for a little demo
+Or FAQs, if that's more appropriate.
 
-## Running the tests
+## Back matter
 
-Explain how to run the automated tests for this system
+### Legal disclaimer
 
-### Break down into end to end tests
+Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
-Explain what these tests test and why
+### Acknowledgements
 
-```
-Give an example or link to a code standard
-```
+This README.md file is a copy based on: https://gist.github.com/noperator/4eba8fae61a23dc6cb1fa8fbb9122d45
 
-### And coding style tests
+### To-do
 
-Explain what these tests test and why
+- [ ] Still need to do this
+- [ ] ~~Decided not to do this~~
+- [x] Done!
 
-```
-Give an example
-```
+### License
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-<!-- List the main dependencies like frameworks, tooling, don't need to list all dependencies -->
-* [Express](https://github.com/expressjs/express)
-* [Sequelize](https://github.com/sequelize/sequelize)
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Security Bugs
-
-Pagar.me has a very strict security culture. Therefore, if any of our projects have any vulnerability that can affect our customers, we have an email for safe disclosure. With that in mind, please do not file public issues; go through the process outlined below.
-
-Please send an email to [security@pagar.me](mailto:security@pagar.me) and describe the bug and the best way to reproduce them. We will reply as soon as possible and do our best to fix the bug as fast as possible too. If there is any sensible data on that email, please encript that using our [gpg key](pagar.me/security.pub)
-
-## Contributing
-Thank you for your interest in contributing!
-
-Please make sure you follow our [Code Of Conduct](CODE_OF_CONDUCT.md), and we also strongly recommend reading our [Contributing Guide](CONTRIBUTING.md) to learn about our development process and details for submitting pull requests and report bugs to us.
-
-## Contributors
-
-Please see the full
-[Contributors Graph](https://github.com/pagarme/project/graphs/contributors) for our
-list of contributors.
-
-## Core Contributors
-
-<!-- Some user examples -->
-- [Rodrigo melo](https://github.com/rsmelo)
-- [Deivis Wingert](https://github.com/deivis)
-
-## License
-
-This project is licensed under the <LICENSE NAME> - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the [MIT License](LICENSE.md).
